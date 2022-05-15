@@ -1,0 +1,32 @@
+Bash: enter bash interprter like python
+# WSL: window subsystem for linux
+ls: list items(folders and files) in a directory
+ls -1: same as 'ls' but puts each item in one line
+ls -t: list in descending order of modification time; list items where the first is last modified
+ls -l: list with file privilages
+ls -r: reverse order of the files , usually ised with another option. If used alone lists item in descending order of the alphabet
+ls -a: list hidden file
+ls -h: put sizes as human redable (kilobytes, megabytes, etc)
+ls -R: list item item in current and sub-directories
+ls -F: distinguishes between directories, files, executables, and symbolic links
+# how to create symbolic links: ln -s path Name of-symbolic-link
+du .-h: size of directories
+du .-sh: summary
+ctrl+l: close terminal
+echo:
+pwd: full path of current directory
+whoami: user
+groups:
+hostname: name of machine
+hostname -i: IP address of machine
+hostname -I:
+uname: OS
+uname -a: info about system
+mkdir: make new directory
+dirs:
+dirs -p:
+cd -2:
+touch: create new file or edit modification date of a current file
+touch -c x: don't create a new file
+chmod[ref][operator][mode] FILE:
+chmod a+
